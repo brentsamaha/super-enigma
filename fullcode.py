@@ -26,6 +26,7 @@ votings_list = []
 
 #To parse through each line of HTML between the opening and closing tags of lister-item-content. 
 #The loop continues as many times as there are movies on the webpage.
+#For loop is spaced out for readability 
 
 for movie in movie_info:
 
