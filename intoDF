@@ -1,0 +1,16 @@
+#to organize information within a data frame for exportation to CSV 
+#able to use organized information for later analysis 
+
+import pandas
+from pandas import DataFrame
+
+oscar_winners = DataFrame({'Movie Name': names_list,
+                           'Movie Genre': genres_list, 
+                           'Movie Certificate': certificates_list, 
+                           'Movie Year': years_list,
+                           'Runtime': runtimes_list,
+                           'Director': directors_list,
+                           'Actors' : actors_list,
+                           'Movie Gross' : grosses_list,
+                           'Movie Rating' : ratings_list,
+                           'Movie Rating Votes' : votings_list})
